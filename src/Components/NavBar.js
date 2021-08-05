@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import Cart from '../img/cart.svg';
+import CartWidget from './CartWidget';
 import Logo from '../img/logo.png';
 
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
       </li>
     </ul>
   </div>
-  <img src={Cart} style={{margin:20, padding: 10, width:"70px" }}/>
+  <CartWidget/>
 </nav>
 
         </Fragment>
