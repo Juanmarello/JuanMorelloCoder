@@ -1,6 +1,21 @@
 
 body{
-    background-color: black;
-    color: rgb(217, 255, 4);
+    background-color: rgb(173, 173, 172);
+    color: rgb(255, 255, 255);
     text-align: center;
+}
+
+.singleProduct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product{
+    margin: auto;
+    width: 400px;
+    height: 450px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 15px rgb(97, 96, 96);
+
 }
