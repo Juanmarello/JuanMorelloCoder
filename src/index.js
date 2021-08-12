@@ -1,5 +1,6 @@
 import './styles.css';
 
+import Item from './Api/Item';
 import ItemCount from './Components/ItemCount';
 import ItemListContainer from './Components/ItemListContainer';
 import Navbar from './Components/NavBar';
@@ -15,7 +16,7 @@ ReactDOM.render( <div className='content'>
         <ItemListContainer greeting="Bienvenidos a nuestra tienda"/>
         <hr />
         <div className="singleProduct"><ItemCount className="counterContent"></ItemCount>
-        
+        <Item />
         </div>
         
       </div>

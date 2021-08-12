@@ -25,7 +25,7 @@ class ItemCount extends React.Component {
          return(
              <div className="product">
                 <h3>Royal Canin Bulldog frances Adulto</h3>
-                <img src={imgproduct} style={{ padding: 10, width:"200px" }} />
+                <img src={imgproduct} style={{ padding: 10, width:"200px" }} alt="Royal canin" />
                 <button onClick={this.incrementar.bind(this)}>+</button> 
                 <button onClick={this.decrementar.bind(this)}>-</button>
                 <p>Cantidad: {this.state.counter} </p>
