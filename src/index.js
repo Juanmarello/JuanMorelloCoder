@@ -1,7 +1,8 @@
 import './styles.css';
 
-import Item from './Api/Item';
 import ItemCount from './Components/ItemCount';
+import ItemDetailContainer from'./Components/ItemDetailContainer';
+import ItemList from './Api/ItemList';
 import ItemListContainer from './Components/ItemListContainer';
 import Navbar from './Components/NavBar';
 import React from 'react';
@@ -13,12 +14,12 @@ ReactDOM.render( <div className='content'>
       <Navbar  />
       </div>
       <div >
-        <ItemListContainer greeting="Bienvenidos a nuestra tienda"/>
+        <ItemListContainer greeting="Bienvenidos a nuestra tienda" items="items"  />
         <hr />
         <div className="singleProduct"><ItemCount className="counterContent"></ItemCount>
-        <Item />
+        <ItemList />
         </div>
-        
+        <ItemDetailContainer />
       </div>
 
       
